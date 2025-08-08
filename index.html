@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
-    <title>YOUR NAME HERE</title>
+    <title>Digital Literacy</title>
     <meta charset="utf-8" />
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
 	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
-
+	  <link rel="stylesheet" href="./style.css" />
 	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
-
-  </head>
-  
+	  <script src="./script.js" defer></script>
+    <!-- google font api -->
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  </head>  
   <body>
-    
-    <h1>This is my very own website!</h1>
-
-    <img src="assets/cat.jpg">
-    
+    <div id="navBar">
+      <ul>
+        <li>
+          <a id="underlined" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="resources.html">Resources</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <img id="banner" src="assets/banner.jpg" alt="A depiction of the world-wide web as a glowing connective barrier floating above skyscrapers and other buildings at nighttime">
+      <div id="introduction">
+        <h1>Digital Literacy</h1>
+        <p>As we move between the real and digital world, let's combat misinformation and learn to be cognizant of our online interactions.</p>
+        <a id="learn" href="index.html#info2">Learn More</a>
+      </div>
+    </div>
+    <div id="info">
+      <div id="info2">
+        <img id="question" src="assets/questionMark.png" alt="A sky blue question mark icon">
+        <h1 id="infoHeading">What is it?</h1>
+        <p>Digital literacy is the ability to interact with the online space while knowing how to stay safe. You're probably using that ability right now! Being able to navigate your way around the internet is an extremely useful skill, and it can be applied to various fields of interest.</p>
+      </div>
+      <div id="info3">
+        <img id="exclamation" src="assets/exclamationMark.png" alt="A sky blue exclamation mark icon">
+        <h1 id="infoHeading">So what?</h1>
+        <p>It's always important to take steps towards our online safety. Whether this means keeping personal information private, thinking critically before acting, or being mindful of your interactions with others, there are many precautions you can take to stay safe online.</p>
+      </div>
+    </div>
+    <hr>
+    <div id="facts">
+      <h1 id="factsHeading">What are some ways you can stay safe online?</h1>
+      <button id="factButton">I can...</button>
+      <p id="factText"></p>
+    </div>
   </body>
 </html>
